@@ -1,0 +1,81 @@
+{
+    "IdUsuarioPK": 1,
+    "IdUsuarioOK": "1",
+    "IdUsuarioBK": "1",
+    "IdPersonaOK": "",
+    "IdPersonaBK": "",
+    "Usuario": "CRAMOSM",
+    "Expira": "",
+    "Conectado": "",
+    "NumIntentos": 1,
+    "Token": "",
+    "cat_usuarios_expira_claves": [{
+        "Clave": "",
+        "FechaExpiraIni": {
+            "$date": "2022-03-24T00:00:00.628Z"
+        },
+        "FechaExpiraFin": {
+            "$date": "2022-03-24T00:00:00.628Z"
+        },
+        "Actual": "",
+        "ClaveAutoSys": "",
+        "detail_row": {
+            "FechaReg": {
+            	"$date": "2022-04-04T00:00:00.628Z"
+        	},
+            "UsuarioReg": "CRAMOSM",
+            "FechaUltMod": {
+            	"$date": "2022-04-04T00:00:00.628Z"
+        	},
+            "UsuarioMod": "CRAMOSM",
+            "Activo": "S",
+            "Borrado": "N"
+        }
+    }],
+    "cat_usuarios_estatus": [{
+        "IdTipoGenEstatusOK": "",
+        "IdGenEstatusOK": "",
+        "TipoEstatus": "",
+        "Actual": "",
+        "Observacion": "",
+        "detail_row": {
+            "FechaReg": {
+            	"$date": "2022-04-04T00:00:00.628Z"
+        	},
+            "UsuarioReg": "CRAMOSM",
+            "FechaUltMod": {
+            	"$date": "2022-04-04T00:00:00.628Z"
+        	},
+            "UsuarioMod": "CRAMOSM",
+            "Activo": "S",
+            "Borrado": "N"
+        }
+    }],
+    "cat_usuarios_roles": [{
+        "Principal": "",
+        "detail_row": {
+            "FechaReg": {
+            	"$date": "2022-04-04T00:00:00.628Z"
+        	},
+            "UsuarioReg": "CRAMOSM",
+            "FechaUltMod": {
+            	"$date": "2022-04-04T00:00:00.628Z"
+        	},
+            "UsuarioMod": "CRAMOSM",
+            "Activo": "S",
+            "Borrado": "N"
+        }
+    }],
+    "detail_row": {
+        "FechaReg": {
+            	"$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            	"$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+}

@@ -1,0 +1,11 @@
+import { Router } from 'express'; 
+import * as UsuariosController from '../controllers/Usuarios.controller'; 
+const router = Router(); 
+//ficRouter.get('/list', ProdServController.getProdServList); 
+router.get('/', UsuariosController.getUsuariosList);
+router.get('/:id', UsuariosController.getUsuarioItem);
+router.post('/', UsuariosController.postUsuarioItem);
+router.put('/:id', UsuariosController.putUsuarioItem);
+//router.get('/item/:ficIdProdServ', prodServController.getProdServItem); 
+//router.get('/:id', EstatusController.getEstatusItem); 
+export default router;

@@ -1,0 +1,56 @@
+@api = http://localhost:3050/api/v1/security/cattiposgenerales
+
+### GET ALL CAT_TIPOS_GENERALES
+GET {{api}}
+
+### GET ITEM CAT_TIPOS_GENERALES
+GET {{api}}/215
+
+### GET ITEM CAT_TIPOS_GENERALES FILTER OK
+GET {{api}}/215?keyType=OK
+
+### GET ITEM CAT_TIPOS_GENERALES FILTER BK
+GET {{api}}/201?keyType=BK
+
+### POST ITEM CAT_TIPOS_GENERALES
+POST {{api}}
+Content-Type: application/json
+
+{
+    "IdTipoGenOK": "215",
+    "IdTipoGenBK": "215",
+    "DesTipoGen": "PRUEBA",
+    "detail_row": {
+      "Activo": "S",
+      "Borrado": "N",
+      "detail_row_reg": [
+        {
+          "FechaReg": "2022-04-30T00:00:00.628Z",
+          "UsuarioReg": "FIBARRAC"
+        }
+      ]
+    }
+}
+
+### PUT ITEM CAT_TIPOS_GENERALES
+PUT {{api}}/215
+Content-Type: application/json
+
+{
+    "IdTipoGenOK": "215",
+    "IdTipoGenBK": "215",
+    "DesTipoGen": "SERVICIOS",
+    "detail_row": {
+      "Activo": "S",
+      "Borrado": "N",
+      "detail_row_reg": [
+        {
+          "FechaReg": "2022-04-30T00:00:00.628Z",
+          "UsuarioReg": "FIBARRAC"
+        }
+      ]
+    }
+}
+
+### DELETE CAT_TIPOS_GENERALES
+DELETE {{api}}/215

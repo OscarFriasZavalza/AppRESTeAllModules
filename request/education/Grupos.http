@@ -1,0 +1,410 @@
+@api = http://localhost:3050/api/v1/education/grupos
+
+###GET LIST
+GET {{api}}
+
+###GET ITEM
+GET {{api}}/100
+
+### GET ITEM OK
+GET {{api}}/1?keyType=OK
+
+### GET ITEM BK
+GET {{api}}/100A-1?keyType=BK
+
+### POST ITEM INSTITUTO 
+POST {{api}}
+Content-Type: application/json
+
+{
+    "IdGrupoPK": 100,
+    "IdGrupoOK": "100",
+    "IdGrupoBK": "100A-1",
+    "IdPeriodoOK": "1",
+    "IdInstitutoOK": "1",
+    "IdCarreraOK": "1",
+    "IdProgramaOK": "1",
+    "IdReticulaOK": "1",
+    "IdAsignaturaOK": "1",
+    "IdPersonaOK": "4",
+    "IdRolOK": "3",
+    "Grupo": "100A",
+    "Capacidad": 25,
+    "IdTipoCursoOK": "208",
+    "IdCursoOK": "208-1",
+    "Curso": "NORMAL",
+    "IdTipoGradoAcaOK": "200",
+    "IdGradoAcaOK": "200-1",
+    "GradoAca": "LICENCIATURA",
+    "IdTipoHorarioOK": "205",
+    "IdHorarioOK": "205-2",
+    "Horario": "OFICIAL",
+    "detail_row": {
+        "Activo": "Si",
+        "Borrado": "No",
+        "detail_row_reg": [
+          {
+            "FechaReg": "2022-04-04T00:00:00.628Z",
+            "UsuarioReg": "Gonzalo"
+          }
+        ]
+    },
+    "grupos_estatus": [
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdTipoEstatusOK": "301",
+        "IdEstatusOK": "301-2",
+        "Estatus": "OFICIAL",
+        "Actual": "S"
+      }
+    ],
+    "grupos_horarios": [
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdDiaOK": "1",
+        "IdDiaBK": "BDA-5A-LUN",
+        "Dia": "LUNES",
+        "Alias": "Monday",
+        "HoraEntrada": "18:00",
+        "HoraSalida": "19:00",
+        "ToleranciaEntrada": 5,
+        "ToleranciaSalida": 5,
+        "IdEdificioOK": "1",
+        "IdEspacioOK": "1"
+      },
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdDiaOK": "2",
+        "IdDiaBK": "BDA-5A-MAR",
+        "Dia": "MARTES",
+        "Alias": "Tuesday",
+        "HoraEntrada": "18:00",
+        "HoraSalida": "19:00",
+        "ToleranciaEntrada": 5,
+        "ToleranciaSalida": 5,
+        "IdEdificioOK": "1",
+        "IdEspacioOK": "1"
+      },
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdDiaOK": "3",
+        "IdDiaBK": "BDA-5A-MIER",
+        "Dia": "MIERCOLES",
+        "Alias": "Wednesday",
+        "HoraEntrada": "18:00",
+        "HoraSalida": "19:00",
+        "ToleranciaEntrada": 5,
+        "ToleranciaSalida": 5,
+        "IdEdificioOK": "1",
+        "IdEspacioOK": "1"
+      },
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdDiaOK": "4",
+        "IdDiaBK": "BDA-5A-JUE",
+        "Dia": "JUEVES",
+        "Alias": "Thursday",
+        "HoraEntrada": "18:00",
+        "HoraSalida": "19:00",
+        "ToleranciaEntrada": 5,
+        "ToleranciaSalida": 5,
+        "IdEdificioOK": "1",
+        "IdEspacioOK": "1"
+        }
+    ],
+    "grupos_personas": [
+        {
+          "detail_row": {
+            "Activo": "Si",
+            "Borrado": "No",
+            "detail_row_reg": [
+              {
+                "FechaReg": "2022-04-04T00:00:00.628Z",
+                "UsuarioReg": "Gonzalo"
+              }
+            ]
+          },
+          "IdPersonaOK": "1",
+          "IdRolOK": "2",
+          "NumPeriodo": 1,
+          "Repite": "N"
+        },
+        {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdPersonaOK": "2",
+        "IdRolOK": "2",
+        "NumPeriodo": 1,
+        "Repite": "N"
+      },
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdPersonaOK": "3",
+        "IdRolOK": "2",
+        "NumPeriodo": 1,
+        "Repite": "N"
+      }
+    ]
+}
+
+### PUT ITEM INSTITUTO 
+PUT {{api}}/100
+Content-Type: application/json
+
+{
+    "IdGrupoPK": 6,
+    "IdGrupoOK": "6",
+    "IdGrupoBK": "6A-1",
+    "IdPeriodoOK": "1",
+    "IdInstitutoOK": "1",
+    "IdCarreraOK": "1",
+    "IdProgramaOK": "1",
+    "IdReticulaOK": "1",
+    "IdAsignaturaOK": "1",
+    "IdPersonaOK": "4",
+    "IdRolOK": "3",
+    "Grupo": "6A",
+    "Capacidad": 25,
+    "IdTipoCursoOK": "208",
+    "IdCursoOK": "208-1",
+    "Curso": "NORMAL",
+    "IdTipoGradoAcaOK": "200",
+    "IdGradoAcaOK": "200-1",
+    "GradoAca": "LICENCIATURA",
+    "IdTipoHorarioOK": "205",
+    "IdHorarioOK": "205-2",
+    "Horario": "OFICIAL",
+    "detail_row": {
+        "Activo": "Si",
+        "Borrado": "No",
+        "detail_row_reg": [
+          {
+            "FechaReg": "2022-04-04T00:00:00.628Z",
+            "UsuarioReg": "Gonzalo"
+          }
+        ]
+    },
+    "grupos_estatus": [
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdTipoEstatusOK": "301",
+        "IdEstatusOK": "301-2",
+        "Estatus": "OFICIAL",
+        "Actual": "S"
+      }
+    ],
+    "grupos_horarios": [
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdDiaOK": "1",
+        "IdDiaBK": "BDA-5A-LUN",
+        "Dia": "LUNES",
+        "Alias": "Monday",
+        "HoraEntrada": "18:00",
+        "HoraSalida": "19:00",
+        "ToleranciaEntrada": 5,
+        "ToleranciaSalida": 5,
+        "IdEdificioOK": "1",
+        "IdEspacioOK": "1"
+      },
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdDiaOK": "2",
+        "IdDiaBK": "BDA-5A-MAR",
+        "Dia": "MARTES",
+        "Alias": "Tuesday",
+        "HoraEntrada": "18:00",
+        "HoraSalida": "19:00",
+        "ToleranciaEntrada": 5,
+        "ToleranciaSalida": 5,
+        "IdEdificioOK": "1",
+        "IdEspacioOK": "1"
+      },
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdDiaOK": "3",
+        "IdDiaBK": "BDA-5A-MIER",
+        "Dia": "MIERCOLES",
+        "Alias": "Wednesday",
+        "HoraEntrada": "18:00",
+        "HoraSalida": "19:00",
+        "ToleranciaEntrada": 5,
+        "ToleranciaSalida": 5,
+        "IdEdificioOK": "1",
+        "IdEspacioOK": "1"
+      },
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdDiaOK": "4",
+        "IdDiaBK": "BDA-5A-JUE",
+        "Dia": "JUEVES",
+        "Alias": "Thursday",
+        "HoraEntrada": "18:00",
+        "HoraSalida": "19:00",
+        "ToleranciaEntrada": 5,
+        "ToleranciaSalida": 5,
+        "IdEdificioOK": "1",
+        "IdEspacioOK": "1"
+        }
+    ],
+    "grupos_personas": [
+        {
+          "detail_row": {
+            "Activo": "Si",
+            "Borrado": "No",
+            "detail_row_reg": [
+              {
+                "FechaReg": "2022-04-04T00:00:00.628Z",
+                "UsuarioReg": "Gonzalo"
+              }
+            ]
+          },
+          "IdPersonaOK": "1",
+          "IdRolOK": "2",
+          "NumPeriodo": 1,
+          "Repite": "N"
+        },
+        {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdPersonaOK": "2",
+        "IdRolOK": "2",
+        "NumPeriodo": 1,
+        "Repite": "N"
+      },
+      {
+        "detail_row": {
+          "Activo": "Si",
+          "Borrado": "No",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-04T00:00:00.628Z",
+              "UsuarioReg": "Gonzalo"
+            }
+          ]
+        },
+        "IdPersonaOK": "3",
+        "IdRolOK": "2",
+        "NumPeriodo": 1,
+        "Repite": "N"
+      }
+    ]
+}
+
+### JGZ: DELETE Grupos
+DELETE {{api}}/6

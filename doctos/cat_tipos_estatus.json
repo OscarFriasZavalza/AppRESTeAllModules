@@ -1,0 +1,92 @@
+[
+{
+    "IdTipoEstatusPK": 200,
+    "IdTipoEstatusOK": "200",
+    "IdTipoEstatusBK": "200",
+    "DesTipoEstatus": "USUARIOS",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdTipoEstatusPK": 201,
+    "IdTipoEstatusOK": "201",
+    "IdTipoEstatusBK": "201",
+    "DesTipoEstatus": "ROLES",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdTipoEstatusPK": 300,
+    "IdTipoEstatusOK": "300",
+    "IdTipoEstatusBK": "300",
+    "DesTipoEstatus": "ASIGNATURAS",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdTipoEstatusPK": 301,
+    "IdTipoEstatusOK": "301",
+    "IdTipoEstatusBK": "301",
+    "DesTipoEstatus": "GRUPOS",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdTipoEstatusPK": 302,
+    "IdTipoEstatusOK": "302",
+    "IdTipoEstatusBK": "302",
+    "DesTipoEstatus": "CARRERAS",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+}
+]

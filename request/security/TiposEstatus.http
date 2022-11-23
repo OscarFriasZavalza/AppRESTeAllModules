@@ -1,0 +1,54 @@
+@api = http://localhost:3050/api/v1/security/tipos-estatus
+#@api = http://187.229.22.99:8010/api/v1/TiposEstatus
+
+### GET
+GET {{api}}
+
+### GET ITEM
+GET {{api}}/201
+
+### GET ITEM
+GET {{api}}/300?keyType=OK
+
+### GET ITEM
+GET {{api}}/302?keyType=BK
+
+### POST ITEM TIPO ESTATUS
+POST {{api}} 
+Content-Type: application/json
+
+{
+  "IdTipoEstatusOK": "500",
+  "IdTipoEstatusBK": "500",
+  "DesTipoEstatus": "PRUEBA",
+  "detail_row": {
+    "Activo": "S",
+    "Borrado": "N",
+    "detail_row_reg": [
+      {
+        "FechaReg": "2022-04-30T00:00:00.628+0000",
+        "UsuarioReg": "FIBARRAC"
+      }
+    ]
+  }
+}
+
+### PUT ITEM TIPO ESTATUS 
+PUT {{api}}/3
+Content-Type: application/json
+
+{
+  "IdTipoEstatusOK": "500",
+  "IdTipoEstatusBK": "500",
+  "DesTipoEstatus": "PRUEBAPUT",
+  "detail_row": {
+    "Activo": "S",
+    "Borrado": "N",
+    "detail_row_reg": [
+      {
+        "FechaReg": "2022-04-30T00:00:00.628+0000",
+        "UsuarioReg": "FIBARRAC"
+      }
+    ]
+  }
+}

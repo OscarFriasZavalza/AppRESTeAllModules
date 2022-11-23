@@ -1,0 +1,202 @@
+[
+{
+    "IdEstatusPK": 2001,
+    "IdEstatusOK": "200-1",
+    "IdEstatusBK": "200-1",
+    "IdTipoEstatusOK": "200",
+    "IdTipoEstatusBK": "200",
+    "DesEstatus": "ACTIVO",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdEstatusPK": 2002,
+    "IdEstatusOK": "200-2",
+    "IdEstatusBK": "200-2",
+    "IdTipoEstatusOK": "200",
+    "IdTipoEstatusBK": "200",
+    "DesEstatus": "NO ACTIVO",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdEstatusPK": 2011,
+    "IdEstatusOK": "201-1",
+    "IdEstatusBK": "201-1",
+    "IdTipoEstatusOK": "201",
+    "IdTipoEstatusBK": "201",
+    "DesEstatus": "ACTIVO",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdEstatusPK": 2012,
+    "IdEstatusOK": "201-2",
+    "IdEstatusBK": "201-2",
+    "IdTipoEstatusOK": "201",
+    "IdTipoEstatusBK": "201",
+    "DesEstatus": "NO ACTIVO",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdEstatusPK": 3001,
+    "IdEstatusOK": "300-1",
+    "IdEstatusBK": "300-1",
+    "IdTipoEstatusOK": "300",
+    "IdTipoEstatusBK": "300",
+    "DesEstatus": "VIGENTE",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdEstatusPK": 3002,
+    "IdEstatusOK": "300-2",
+    "IdEstatusBK": "300-2",
+    "IdTipoEstatusOK": "300",
+    "IdTipoEstatusBK": "300",
+    "DesEstatus": "NO VIGENTE",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdEstatusPK": 3011,
+    "IdEstatusOK": "301-1",
+    "IdEstatusBK": "301-1",
+    "IdTipoEstatusOK": "301",
+    "IdTipoEstatusBK": "301",
+    "DesEstatus": "PROPUESTO",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdEstatusPK": 3012,
+    "IdEstatusOK": "301-2",
+    "IdEstatusBK": "301-2",
+    "IdTipoEstatusOK": "301",
+    "IdTipoEstatusBK": "301",
+    "DesEstatus": "OFICIAL",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdEstatusPK": 3021,
+    "IdEstatusOK": "302-1",
+    "IdEstatusBK": "302-1",
+    "IdTipoEstatusOK": "302",
+    "IdTipoEstatusBK": "302",
+    "DesEstatus": "ACTIVA",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+},
+{
+    "IdEstatusPK": 3022,
+    "IdEstatusOK": "302-2",
+    "IdEstatusBK": "302-2",
+    "IdTipoEstatusOK": "302",
+    "IdTipoEstatusBK": "302",
+    "DesEstatus": "NO ACTIVA",
+    "detail_row": {
+        "FechaReg": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioReg": "CRAMOSM",
+        "FechaUltMod": {
+            "$date": "2022-04-04T00:00:00.628Z"
+        },
+        "UsuarioMod": "CRAMOSM",
+        "Activo": "S",
+        "Borrado": "N"
+    }
+}
+]

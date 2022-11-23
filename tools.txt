@@ -1,0 +1,3 @@
+
+#FIC: borrar cache
+dotnet nuget locals http-cache -c

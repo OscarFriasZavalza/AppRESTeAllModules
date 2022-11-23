@@ -1,0 +1,33 @@
+[{
+  "IdInstituto": 1,
+  "IdTipoGenGradoAcaOK": 200,
+  "IdGengradoAcaOK": "200-3",
+  "TipoGradoAca": "DOCTORADO",
+  "IdTipoGenModalidadOK": "206",
+  "IdGenModalidadOK": "206-1"
+  "TipoModalidad": "ESCOLARIZADO",
+  "DesPeriodo": "ENERO - JUNIO 2022 PRESENCIAL",
+  "NombreCorto": "ENE-JUN 2022",
+  "PeriodoIni": {
+    "$date": "2022-02-01T00:00:00Z"
+  },
+  "PeriodoFin": {
+    "$date": "2022-06-11T00:00:00Z"
+  },
+  "IdTipoEstatusOK": "303",
+  "IdEstatusOK": "303-1",
+  "Estatus" : "EN CURSO",
+  "Año": 2022,
+  "NumPeriodo": "20221",
+  "ClavePeriodo": "2022-1",
+  "IdTipoGenPeriodoOK": "207",
+  "IdGenPeriodoOK": "207-1",
+  "TipoPeriodo" : "SEMESTRAL",
+  "NumDias": 78,
+  "Activo": "S",
+  "Borrado": "N",
+  "FechaReg": {
+    "$date": "2018-01-01T00:00:00Z"
+  },
+  "UsuarioReg": "alrod"
+}]

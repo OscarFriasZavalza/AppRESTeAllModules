@@ -1,0 +1,109 @@
+[{
+        "IdGenOk": "200-1",
+        "IdGenBK": "200-1",
+        "IdTipoGenPK": "200",
+        "IdTipoGenOK": "200",
+        "IdTipoGenBK": "200",
+        "DesGeneral": "Licenciatura",
+        "IdClasifica": "L",
+        "Referencia": "Ninguna",
+        "detail_row": {
+            "FechaReg": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioReg": "EDGAR",
+            "FechaUltMod": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioMod": "EDGAR",
+            "Activo": "S",
+            "Borrado" :"N"
+        }
+},
+{
+        "IdGenOk": "200-2",
+        "IdGenBK": "200-2",
+        "IdTipoGenPK": "200",
+        "IdTipoGenOK": "200",
+        "IdTipoGenBK": "200",
+        "DesGeneral": "Maestría",
+        "IdClasifica": "M",
+        "Referencia": "Ninguna",
+        "detail_row": {
+            "FechaReg": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioReg": "EDGAR",
+            "FechaUltMod": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioMod": "EDGAR",
+            "Activo": "S",
+            "Borrado" :"N"
+        }
+},
+{
+        "IdGenOk": "200-3",
+        "IdGenBK": "200-3",
+        "IdTipoGenPK": "200",
+        "IdTipoGenOK": "200",
+        "IdTipoGenBK": "200",
+        "DesGeneral": "Doctorado",
+        "IdClasifica": "D",
+        "Referencia": "Ninguna",
+        "detail_row": {
+            "FechaReg": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioReg": "EDGAR",
+            "FechaUltMod": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioMod": "EDGAR",
+            "Activo": "S",
+            "Borrado" :"N"
+        }
+},
+{
+        "IdGenOk": "201-1",
+        "IdGenBK": "201-1",
+        "IdTipoGenPK": "201",
+        "IdTipoGenOK": "201",
+        "IdTipoGenBK": "201",
+        "DesGeneral": "Maestro",
+        "IdClasifica": "M",
+        "Referencia": "Ninguna",
+        "detail_row": {
+            "FechaReg": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioReg": "EDGAR",
+            "FechaUltMod": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioMod": "EDGAR",
+            "Activo": "S",
+            "Borrado" :"N"
+        }
+},
+{
+        "IdGenOk": "201-2",
+        "IdGenBK": "201-2",
+        "IdTipoGenPK": "201",
+        "IdTipoGenOK": "201",
+        "IdTipoGenBK": "201",
+        "DesGeneral": "Alumno",
+        "IdClasifica": "A",
+        "Referencia": "Ninguna",
+        "detail_row": {
+            "FechaReg": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioReg": "EDGAR",
+            "FechaUltMod": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioMod": "EDGAR",
+            "Activo": "S",
+            "Borrado" :"N"
+        }
+},
+{
+        "IdGenOk": "201-3",
+        "IdGenBK": "201-3",
+        "IdTipoGenPK": "201",
+        "IdTipoGenOK": "201",
+        "IdTipoGenBK": "201",
+        "DesGeneral": "Administrador",
+        "IdClasifica": "A",
+        "Referencia": "Ninguna",
+        "detail_row": {
+            "FechaReg": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioReg": "EDGAR",
+            "FechaUltMod": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioMod": "EDGAR",
+            "Activo": "S",
+            "Borrado" :"N"
+        }
+}]
+

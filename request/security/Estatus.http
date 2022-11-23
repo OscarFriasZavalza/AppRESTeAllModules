@@ -1,0 +1,56 @@
+@api = http://localhost:3050/api/v1/security/Estatus
+#@api = http://187.229.22.99:8010/api/v1/Estatus
+
+### GET
+GET {{api}}
+
+### GET ITEM
+GET {{api}}/303-2
+
+### GET ITEM
+GET {{api}}/200-2?keyType=OK
+
+### GET ITEM
+GET {{api}}/301-2?keyType=BK
+
+### POST ITEM ESTATUS
+POST {{api}} 
+Content-Type: application/json
+
+{
+  "IdEstatusOK": "201-0",
+  "IdEstatusBK": "201-0",
+  "IdTipoEstatusOK": "201",
+  "DesEstatus": "PRUEBA",
+  "detail_row": {
+    "Activo": "S",
+    "Borrado": "N",
+    "detail_row_reg": [
+      {
+        "FechaReg": "2022-04-30T00:00:00.628+0000",
+        "UsuarioReg": "CRAMOSM"
+      }
+    ]
+  }
+}
+
+### PUT ITEM ESTATUS 
+PUT {{api}}/3
+Content-Type: application/json
+
+{
+  "IdEstatusOK": "201-0",
+  "IdEstatusBK": "201-0",
+  "IdTipoEstatusOK": "201",
+  "DesEstatus": "PRUEBAPUT",
+  "detail_row": {
+    "Activo": "S",
+    "Borrado": "N",
+    "detail_row_reg": [
+      {
+        "FechaReg": "2022-04-30T00:00:00.628+0000",
+        "UsuarioReg": "CRAMOSM"
+      }
+    ]
+  }
+}

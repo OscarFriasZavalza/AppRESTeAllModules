@@ -1,0 +1,82 @@
+{
+    "_id": {"$oid": "622cd7ae486bb6d4b5f04ac2"},
+    "IdPersonaPK" : 1,
+    "IdPersonaOK" : "1",
+    "IdPersonaBK" : "18401193",
+    "Nombre" : "Edgar",
+    "ApPaterno" : "Rojas",
+    "ApMaterno" : "Medina",
+    "FechaNac": {"$date":"2000-06-19T00:00:00.628Z"},
+    "TipoPersona": "F",
+    "Sexo" : "H",
+    "Alias" : "Garo",
+    "cat_personas_dir_webs": [{
+        "IdDirWebOk": "1",
+        "IdDirWebBK": "1",
+        "DesDirWeb": "Pagina de Negocio",
+        "DireccionWeb": "mythicrabbit@gmail.com",
+        "IdTipoGenDirWebOk": "202",
+        "IdGenDirWebOK": "202-3",
+	"TipoDirWeb": "PAGINA WEB",
+        "Principal": "S",
+        "detail_row": {
+            "FechaReg": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioReg": "EDGAR",
+            "FechaUltMod": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioMod": "EDGAR",
+            "Activo": "S",
+            "Borrado" :"N"
+        }
+    }],
+    "cat_personas_telefonos": [{
+        "IdTelefonoOk": "1",
+        "IdTelefonoBK": "1",
+        "CodPais": "55",
+        "NumTelefono": "3111873421",
+        "NumExtension": "554",
+        "Principal": "A",
+        "IdTipoGenTelefonoOk": "203",
+        "IdTipoTelefonoOk": "203-3",
+        "detail_row": {
+            "FechaReg": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioReg": "EDGAR",
+            "FechaUltMod": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioMod": "EDGAR",
+            "Activo": "S",
+            "Borrado" :"N"
+        }
+    }],
+    "cat_personas_domicilios": [{
+        "IdDomicilioOk": "1",
+        "IdDomicilioBK": "1",
+        "Calle Numero": "55",
+        "Entre Calle 1": "Florencia",
+        "Entre Calle2": "Santander",
+        "Referencia": "Casa Gris",
+        "CodPostal": "67124",
+        "CoordenadasXY": "7654,9775",
+        "IdTipoGenDomicilioOk": "204",
+        "IdGenDomicilioOk": "204-2",
+        "Pais": "México",
+        "Estado": "Nayarit",
+        "Municipio": "Tepic",
+        "Localidad": "Tepic",
+        "Colonia": "Cd del Valle",
+        "detail_row": {
+            "FechaReg": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioReg": "EDGAR",
+            "FechaUltMod": {"$date":"2022-01-28T00:00:00.628Z"},
+            "UsuarioMod": "EDGAR",
+            "Activo": "S",
+            "Borrado" :"N"
+        }
+    }],
+  "detail_row": {
+          "FechaReg": "",
+          "UsuarioReg": "EDGAR",
+          "FechaUltMod": "",
+          "UsuarioMod": "EDGAR",
+          "Activo": "S",
+          "Borrado": "N"
+  }   
+}

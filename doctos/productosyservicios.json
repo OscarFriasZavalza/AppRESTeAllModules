@@ -1,0 +1,163 @@
+{
+    "IdProdServOK" : "636b7de4fc13ae65d500041a",
+    "IdInstitutoOK" : "636b7de4fc13ae65d500041b",
+    "IdProdServBK" : 3872,
+    "CodigoBarras" : "86681388540659464793",
+    "DesProdServ" : 71,
+    "cat_prod_serv_info_ad" : [
+        {
+            "idEtiqueta" : "636c085547bbfcad4b871701",
+            "etiqueta" : "Marca",
+            "valor" : "Adidas",
+            "idSeccionOK" : "Calzado",
+            "seccion" : "tenis",
+            "secuencia": 1,
+            "detail_row" : {
+                "Activo" : "S",
+                "Borrado" : "N",
+                "detail_row_reg": [
+                    {
+                        "FechaReg" : "9/27/2022",
+                        "UsuarioReg" : "Brian"
+                    }
+                ]
+            }
+        }
+    ],
+    "cat_prod_serv_estatus": [
+        {
+            "idEstatusOK" : "12345",
+            "Estatus" : "Enviado",
+            "Actual" : "En aduanas",
+            "Observacion" : "Posible retraso",
+            "detail_row" : {
+                "Activo" : "S",
+                "Borrado" : "N",
+                "detail_row_reg": [
+                    {
+                        "FechaReg" : "9/27/2022",
+                        "UsuarioReg" : "Brian"
+                    }
+                ]
+            }
+        }
+    ],
+    "cat_prod_serv_negocios" : [
+        {
+            "idNegociosOK" : "Adidas Mexico",
+            "detail_row" : {
+                "Activo" : "S",
+                "Borrado" : "N",
+                "detail_row_reg": [
+                    {
+                        "FechaReg" : "9/27/2022",
+                        "UsuarioReg" : "Brian"
+                    }
+                ]
+            }
+        }
+    ],
+    "cat_prod_serv_presenta" : [
+        {
+            "idPresentaBK" : "1",
+            "desPresenta" : "0%",
+            "cat_prod_serv_presenta_estatus" : [
+                {
+                    "idEstatusOK" : "12345",
+                    "Estatus" : "Enviado",
+                    "Actual" : "En aduanas",
+                    "Observacion" : "Posible retraso",
+                    "detail_row" : {
+                        "Activo" : "S",
+                        "Borrado" : "N",
+                        "detail_row_reg": [
+                            {
+                                "FechaReg" : "9/27/2022",
+                                "UsuarioReg" : "Brian"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "cat_prod_serv_presenta_info_ad" : [
+                {
+                    "idEtiqueta" : "636c085547bbfcad4b871701",
+                    "etiqueta" : "color rojo",
+                    "valor" : "40",
+                    "idSeccionOK" : "Calzado",
+                    "secuencia" : 1,
+                    "detail_row" : {
+                        "Activo" : "S",
+                        "Borrado" : "N",
+                        "detail_row_reg": [
+                            {
+                                "FechaReg" : "9/27/2022",
+                                "UsuarioReg" : "Brian"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "cat_prod_serv_archivos" : [
+                {
+                    "idArchivoBK" : "1",
+                    "desArchivo" : "Imagen",
+                    "rutaArchivo" : "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+                    "idTipoArchivo" : "1",
+                    "TipoArchivo" : "Imagen",
+                    "idSeccionOK" : "Tenis",
+                    "seccion" : "Calzado",
+                    "secuencia" : 1,
+                    "principal" : "a",
+                    "detail_row" : {
+                        "Activo" : "S",
+                        "Borrado" : "N",
+                        "detail_row_reg": [
+                            {
+                                "FechaReg" : "9/27/2022",
+                                "UsuarioReg" : "Brian"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "cat_prod_serv_paquetes" : [
+                {
+                    "idPresentaBK" : "636c085547bbfcad4b871701",
+                    "desPresenta" : "En camino",
+                    "Cantidad" : 1.5,
+                    "detail_row" : {
+                        "Activo" : "S",
+                        "Borrado" : "N",
+                        "detail_row_reg": [
+                            {
+                                "FechaReg" : "9/27/2022",
+                                "UsuarioReg" : "Brian"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "detail_row" : {
+                "Activo" : "S",
+                "Borrado" : "N",
+                "detail_row_reg": [
+                    {
+                        "FechaReg" : "9/27/2022",
+                        "UsuarioReg" : "Brian"
+                    }
+                ]
+            }
+        }
+    ],
+    "detail_row" : {
+        "Activo" : "S",
+        "Borrado" : "N",
+        "detail_row_reg": [
+            {
+                "FechaReg" : "9/27/2022",
+                "UsuarioReg" : "Brian"
+            }
+        ]
+    }
+}

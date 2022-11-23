@@ -1,0 +1,96 @@
+[{
+  "IdGroupoPK": 1,
+  "IdGrupoOK": "1",
+  "IdGrupoBK": "5B-1",
+  "IdPeriodoOK": "12022",
+  "IdReticulaOK": "RETSYC-1",
+  "IdTipoGenGradoAcaOK": "200",
+  "IdGenGradoAcaOK": "200-1",
+  "TipoGradoAca": "LICENCIATURA",
+  "IdCarreraOK": "CA-1",
+  "Grupo": "5A",
+  "IdTipoGenHorarioOK": "205",
+  "IdGenHorarioOK": "205-1",
+  "TipoHorario": "PREHORARIO",
+  "Capacidad": 25,
+  "grupos_alumnos": [
+    {
+      "IdAlumnoOK": "1",
+      "IdAlumnoBK": "18401193",
+      "Semestre": "8",
+      "EnRepeticion": "N",
+      "detail_row": {
+        "FechaReg": {"$date":"2016-04-08T15:06:21.595Z"},
+        "UsuarioReg": "Gonzalo",
+        "FechaUltMod": {"$date":"2016-04-08T15:06:21.595Z"},
+        "UsuarioMod": "Gonzalo",
+        "Activo": "S",
+        "Borrado": "N"
+      }
+    }
+  ],
+  "grupos_horarios": [
+    {      
+      "IdHorarioOK": "1",
+      "IdHorarioBK": "12022",
+      "Dia": "Lunes",
+      "HoraIni": "18:00",
+      "HoraFin": "19:00",
+      "ToleranciaIni": 5,
+      "ToleranciaFin": 5,
+      "IdEdificioOK": "1",
+      "IdEspacioOK": "1",
+      "detail_row": {
+        "FechaReg": {"$date":"2016-04-08T15:06:21.595Z"},
+        "UsuarioReg": "Gonzalo",
+        "FechaUltMod": {"$date":"2016-04-08T15:06:21.595Z"},
+        "UsuarioMod": "Gonzalo",
+        "Activo": "S",
+        "Borrado": "N"
+      }
+    },
+    {
+      "IdHorarioOK": "1",
+      "IdHorarioBK": "12022",
+      "Dia": "Martes",
+      "HoraIni": "18:00",
+      "HoraFin": "19:00",
+      "ToleranciaIni": 5,
+      "ToleranciaFin": 5,
+      "IdEdificioOK": "1",
+      "IdEspacioOK": "1",
+      "detail_row": {
+        "FechaReg": {"$date":"2016-04-08T15:06:21.595Z"},
+        "UsuarioReg": "Gonzalo",
+        "FechaUltMod": {"$date":"2016-04-08T15:06:21.595Z"},
+        "UsuarioMod": "Gonzalo",
+        "Activo": "S",
+        "Borrado": "N"
+      }
+    }
+  ],
+  "grupos_asignaturas": {    
+    "IdAsignaturaOK": "1",
+    "IdAsignaturaBK": "DAD2001",
+    "IdCatedraticoOK": "1",    
+    "IdTipoGenEstatus": "200",
+    "IdGenEstatus": "200-1",
+    "Estatus": "ACTIVO",
+    "detail_row": {
+      "FechaReg": {"$date":"2016-04-08T15:06:21.595Z"},
+      "UsuarioReg": "Gonzalo",
+      "FechaUltMod": {"$date":"2016-04-08T15:06:21.595Z"},
+      "UsuarioMod": "Gonzalo",
+      "Activo": "S",
+      "Borrado": "N"
+    }
+  },
+  "detail_row": {
+    "FechaReg": {"$date":"2016-04-08T15:06:21.595Z"},
+    "UsuarioReg": "Gonzalo",
+    "FechaUltMod": {"$date":"2016-04-08T15:06:21.595Z"},
+    "UsuarioMod": "Gonzalo",
+    "Activo": "S",
+    "Borrado": "N"
+  }
+}]

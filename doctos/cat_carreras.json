@@ -1,0 +1,125 @@
+[{
+  "ClaveCarrera": "ISIC-2010-224",
+  "DesCarrera": "Ingenieria en Sistemas Computacionales",
+  "NombreCorto": "Ing. Sist. Computacionales",
+  "Alias": "ISC",
+  "IdAreaDepto": "ISC-220",
+  "IdTipoEstatusOK": "400",
+  "IdEstatusOK": "400-1",
+  "Estatus": "400-1",
+  "TipoEstatus": "ACTIVA",
+  "IdGradoAcademico": "200",
+  "IdTipoGenModalidadOK": "190",
+  "IdGenModalidadOK": "190-1",
+  "TipoModalidad": "PRESENCIAL",
+  "Creditos": 120,
+  "FechaIni": {
+    "$date": "2020-04-04T02:45:34.446Z"
+  },
+  "FechaFin": {
+    "$date": "2022-03-04T00:00:00Z"
+  },
+  "detail_row": {
+    "Activo": "S",
+    "Borrado": "N",
+    "FechaReg": {
+      "$date": "2018-01-01T00:00:00Z"
+    },
+    "FechaUltMod": {
+      "$date": "2020-01-01T00:00:00Z"
+    },
+    "UsuarioMod": "alcirod",
+    "UsuarioReg": "edrojas"
+  },
+  "cat_carreras_reticulas": [
+    {
+      "ClaveReticula": "ISIC-2010-224",
+      "DesReticula": "Reticula ingeniería en sistemas computacionales",
+      "Actual": "",
+      "FechaIni": {
+        "$date": "2022-04-04T02:45:34.446Z"
+      },
+      "TipoPlanEstudios": "VERANO",
+      "Activo": "S",
+      "Borrado": "N",
+      "FechaReg": {
+        "$date": "2018-01-01T00:00:00Z"
+      },
+      "UsuarioReg": "alcirodriguezso",
+      "FechaUltMod": {
+        "$date": "2020-01-01T00:00:00Z"
+      },
+      "UsuarioMod": "edrojas",
+      "cat_reticulas_asignaturas": [
+        {
+          "IdGradoAcademico": "200",
+          "IdTipoGenModalidadOK": "190",
+          "IdGenModalidadOK": "190-1",
+          "TipoModalidad": "PRESENCIAL",
+          "ClaveAsignatura": "ACF–0901",
+          "DesAsignatura": "Cálculo integral",
+          "NombreCorto": "calc. integr",
+          "Matricula": "173",
+          "Estatus": "400-1",
+          "FechaPlanEstudios": {
+            "$date": "2018-01-01T00:00:00Z"
+          },
+          "Creditos": 200,
+          "TipoAsignatura": "Tronco básico",
+          "Activo": "S",
+          "Borrado": "N",
+          "FechaReg": {
+            "$date": "2018-01-01T00:00:00Z"
+          },
+          "UsuarioMod": "alrod",
+          "FechaUltMod": {
+            "$date": "2020-01-01T00:00:00Z"
+          }
+        }
+      ],
+      "cat_reticulas_especialidades": [
+        {
+          "IdEspecialidad": "LI-8902",
+          "DesEspecialidad": "Tecnologías de la información",
+          "Activo": "S",
+          "Borrado": "N",
+          "FechaReg": {
+            "$date": "2018-01-01T00:00:00Z"
+          },
+          "UsuarioReg": "edroj",
+          "FechaUltMod": {
+            "$date": "2020-01-01T00:00:00Z"
+          },
+          "UsuarioMod": "alrod",
+          "cat_especialidades_asignaturas": [
+            {
+              "IdGradoAcademico": "200",
+              "IdTipoGenModalidadOK": "190",
+              "IdGenModalidadOK": "190-1",
+              "TipoModalidad": "PRESENCIAL",
+              "ClaveAsignatura": "AQIM-870",
+              "DesAsignatura": "Química",
+              "NombreCorto": "QM",
+              "Matricula": "091",
+              "Estatus": "ACTIVA",
+              "FechaPlanEstudios": {
+                "$date": "2018-01-01T00:00:00Z"
+              },
+              "Creditos": 200,
+              "TipoAsignatura": "",
+              "Activo": "S",
+              "Borrado": "N",
+              "FechaReg": {
+                "$date": "2018-01-01T00:00:00Z"
+              },
+              "UsuarioMod": "edroj",
+              "FechaUltMod": {
+                "$date": "2020-01-01T00:00:00Z"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}]

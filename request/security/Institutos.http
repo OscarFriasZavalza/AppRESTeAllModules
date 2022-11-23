@@ -1,0 +1,71 @@
+@api = http://localhost:3050/api/v1/security/institutos
+#@api = http://187.217.228.11:9096/api/v1/prod-serv
+
+### GET ALL INSTITUTOS
+GET {{api}}
+
+### GET ITEM INSTITUTOS
+GET {{api}}/1
+
+### GET ITEM INSTITUTOS FILTER OK
+GET {{api}}/1?keyType=OK
+
+### GET ITEM INSTITUTOS FILTER BK
+GET {{api}}/18DIT0002Z?keyType=BK
+
+### POST ITEM INSTITUTO 
+POST {{api}}
+Content-Type: application/json
+
+{
+    "IdInstitutoOK" : "4", 
+    "IdInstitutoBK" : "18DIT0004Z", 
+    "DesInstituto" : "Instituto de Prueba para BORRAR", 
+    "Alias" : "ITB", 
+    "Matriz" : "N", 
+    "IdTipoGiroOK" : "210", 
+    "IdGiroOK" : "210-1", 
+    "Giro" : "EDUCACION", 
+    "IdInstitutoSupOK" : "",
+    "detail_row" : {
+        "Activo" : "S", 
+        "Borrado" : "N", 
+        "detail_row_reg" : [
+            {
+                "FechaReg" : "2022-04-30T00:00:00.628+0000", 
+                "UsuarioReg" : "FIBARRAC"
+            }
+        ]
+    }
+}
+
+### PUT ITEM INSTITUTO 
+PUT {{api}}/3
+Content-Type: application/json
+
+{
+    "IdInstitutoPK" : 3, 
+    "IdInstitutoOK" : "3", 
+    "IdInstitutoBK" : "18DIT0100Z", 
+    "DesInstituto" : "Instituto Tecnológico de Bahía", 
+    "Alias" : "ITBB", 
+    "Matriz" : "N", 
+    "IdTipoGiroOK" : "210", 
+    "IdGiroOK" : "210-1", 
+    "Giro" : "EDUCACION", 
+    "IdInstitutoSupOK" : "",
+    "detail_row" : {
+        "Activo" : "S", 
+        "Borrado" : "N", 
+        "detail_row_reg" : [
+            {
+                "FechaReg" : "2022-06-06T22:10:05.628+0000", 
+                "UsuarioReg" : "FIBARRAC"
+            }
+        ]
+    }
+}
+
+
+### DELETE CONTRACT
+DELETE {{api}}/4

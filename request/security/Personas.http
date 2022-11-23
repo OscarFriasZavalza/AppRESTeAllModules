@@ -1,0 +1,253 @@
+@api = http://localhost:3050/api/v1/security/personas
+#@api = http://187.217.228.11:9096/api/v1/prod-serv
+
+### GET ALL PERSONAS
+GET {{api}}
+
+### GET ITEM PERSONAS
+GET {{api}}/3
+
+### GET ITEM PERSONAS FILTER OK
+GET {{api}}/1?keyType=OK
+
+### GET ITEM PERSONAS FILTER BK
+GET {{api}}/18401193?keyType=BK
+
+### POST ITEM PERSONAS 
+POST {{api}}
+Content-Type: application/json
+
+{
+    "IdPersonaOK" : "10", 
+    "IdPersonaBK" : "18401194", 
+    "Nombre" : "Edgar", 
+    "ApPaterno" : "Rojas", 
+    "ApMaterno" : "Medina", 
+    "FechaNac" : "2000-06-19T00:00:00.000Z", 
+    "RFC" : "", 
+    "CURP" : "", 
+    "IdTipoPersonaOk" : "2-5", 
+    "TipoPersona" : "FISICA",
+    "Sexo" : "H", 
+    "Alias"  : "Garo",
+    "cat_personas_dir_webs": [
+      {
+        "DesDirWeb": "Pagina de Negocio",
+        "DireccionWeb": "mythicrabbit@gmail.com",
+        "IdTipoDirWebOk": "202-3",
+        "TipoDirWeb": "PAGINA WEB",
+        "Principal": "S",
+        "detail_row": {
+          "Activo": "S",
+          "Borrado": "N",
+          "detail_row_reg": [
+            {
+              "FechaReg": "1970-01-01T00:00:00.000Z",
+              "UsuarioReg": "FIBARRAC"
+            }
+          ]
+        }
+      }
+    ],
+    "cat_personas_telefonos": [
+      {
+        "DesTelefono": "Tec Tepic",
+        "CodPais": "55",
+        "NumTelefono": "3111873421",
+        "NumExtension": "554",
+        "Principal": "S",
+        "IdTipoTelefonoOk": "203-3",
+        "TipoTelefono": "ESCUELA",
+        "detail_row": {
+          "Activo": "S",
+          "Borrado": "N",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-30T09:10:25.628Z",
+              "UsuarioReg": "FIBARRAC"
+            }
+          ]
+        }
+      }
+    ],
+     "cat_personas_domicilios": [
+      {
+        "IdDomicilioOk": "1",
+        "IdDomicilioBK": "1",
+        "Calle Numero": "55",
+        "Entre Calle 1": "Florencia",
+        "Entre Calle2": "Santander",
+        "Referencia": "Casa Gris",
+        "CodPostal": "67124",
+        "CoordenadasXY": "7654,9775",
+        "IdTipoDomicilioOk": "204-2",
+        "TipoDomicilio": "",
+        "Pais": "México",
+        "Estado": "Nayarit",
+        "Municipio": "Tepic",
+        "Localidad": "Tepic",
+        "Colonia": "Cd del Valle",
+        "detail_row": {
+          "Activo": "S",
+          "Borrado": "N",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-30T09:10:25.628Z",
+              "UsuarioReg": "FIBARRAC"
+            }
+          ]
+        }
+      }
+    ],
+    "personas_info_adicional": [
+      {
+        "IdEtiquetaOK": "IdNSS",
+        "Etiqueta": "Num. Seg. Social",
+        "Valor": "00-00-00-0000-5",
+        "IdSeccionOK": "",
+        "Seccion": "",
+        "Secuencia": 10,
+        "detail_row": {
+          "Activo": "S",
+          "Borrado": "N",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-30T00:00:00.628Z",
+              "UsuarioReg": "FIBARRAC"
+            }
+          ]
+        }
+      }
+    ],
+    "detail_row" : {
+        "Activo" : "S", 
+        "Borrado" : "N", 
+        "detail_row_reg" : [
+            {
+                "FechaReg" : "2022-04-30T00:00:00.628+0000", 
+                "UsuarioReg" : "FIBARRAC"
+            }
+        ]
+    }
+}
+
+### PUT ITEM PERSONAS 
+PUT {{api}}/10
+Content-Type: application/json
+
+{
+    "IdPersonaOK" : "10", 
+    "IdPersonaBK" : "18401195", 
+    "Nombre" : "Edgar", 
+    "ApPaterno" : "Rojas", 
+    "ApMaterno" : "Medina", 
+    "FechaNac" : "2000-06-19T00:00:00.628+0000", 
+    "RFC" : "", 
+    "CURP" : "", 
+    "IdTipoPersonaOk" : "2-5", 
+    "TipoPersona" : "FISICA",
+    "Sexo" : "H", 
+    "Alias"  : "Garito",
+     "cat_personas_dir_webs": [
+      {
+        "DesDirWeb": "Pagina de Negocio",
+        "DireccionWeb": "mythicrabbit@gmail.com",
+        "IdTipoDirWebOk": "202-3",
+        "TipoDirWeb": "PAGINA WEB",
+        "Principal": "S",
+        "detail_row": {
+          "Activo": "S",
+          "Borrado": "N",
+          "detail_row_reg": [
+            {
+              "FechaReg": "1970-01-01T00:00:00.000Z",
+              "UsuarioReg": "FIBARRAC"
+            }
+          ]
+        }
+      }
+    ],
+    "cat_personas_telefonos": [
+      {
+        "DesTelefono": "Tec Tepic",
+        "CodPais": "55",
+        "NumTelefono": "3111873421",
+        "NumExtension": "554",
+        "Principal": "S",
+        "IdTipoTelefonoOk": "203-3",
+        "TipoTelefono": "ESCUELA",
+        "detail_row": {
+          "Activo": "S",
+          "Borrado": "N",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-30T09:10:25.628Z",
+              "UsuarioReg": "FIBARRAC"
+            }
+          ]
+        }
+      }
+    ],
+     "cat_personas_domicilios": [
+      {
+        "IdDomicilioOk": "1",
+        "IdDomicilioBK": "1",
+        "Calle Numero": "55",
+        "Entre Calle 1": "Florencia",
+        "Entre Calle2": "Santander",
+        "Referencia": "Casa Gris",
+        "CodPostal": "67124",
+        "CoordenadasXY": "7654,9775",
+        "IdTipoDomicilioOk": "204-2",
+        "TipoDomicilio": "",
+        "Pais": "México",
+        "Estado": "Nayarit",
+        "Municipio": "Tepic",
+        "Localidad": "Tepic",
+        "Colonia": "Cd del Valle",
+        "detail_row": {
+          "Activo": "S",
+          "Borrado": "N",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-30T09:10:25.628Z",
+              "UsuarioReg": "FIBARRAC"
+            }
+          ]
+        }
+      }
+    ],
+    "personas_info_adicional": [
+      {
+        "IdEtiquetaOK": "IdNSS",
+        "Etiqueta": "Num. Seg. Social",
+        "Valor": "00-00-00-0000-5",
+        "IdSeccionOK": "",
+        "Seccion": "",
+        "Secuencia": 10,
+        "detail_row": {
+          "Activo": "S",
+          "Borrado": "N",
+          "detail_row_reg": [
+            {
+              "FechaReg": "2022-04-30T00:00:00.628Z",
+              "UsuarioReg": "FIBARRAC"
+            }
+          ]
+        }
+      }
+    ],
+    "detail_row" : {
+        "Activo" : "S", 
+        "Borrado" : "N", 
+        "detail_row_reg" : [
+            {
+                "FechaReg" : "2022-04-30T00:00:00.628+0000", 
+                "UsuarioReg" : "FIBARRAC"
+            }
+        ]
+    }
+}
+
+### DELETE CONTRACT
+DELETE {{api}}/10

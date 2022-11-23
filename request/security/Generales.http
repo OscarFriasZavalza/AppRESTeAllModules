@@ -1,0 +1,52 @@
+@api = http://localhost:3050/api/v1/security/catgenerales
+
+### GET ALL CAT_GENERALES
+GET {{api}}
+
+### GET ITEM CAT_GENERALES
+GET {{api}}/200-4
+
+### GET ITEM CAT_GENERALES FILTER OK
+GET {{api}}/200-4?keyType=OK
+
+### GET ITEM CAT_GENERALES FILTER BK
+GET {{api}}/200-4?keyType=BK
+
+### POST ITEM CAT_GENERALES
+POST {{api}}
+Content-Type: application/json
+
+{
+    "IdGenOk": "200-4",
+    "IdGenBK": "200-4",
+    "IdTipoGenOK": "200",
+    "DesGeneral": "POSDOCTORADO",
+    "IdAgrupa": "GA",
+    "detail_row_reg" : [
+            {
+                "FechaReg" : "2022-04-30T00:00:00.628+0000", 
+                "UsuarioReg" : "FIBARRAC"
+            }
+        ]
+}
+
+### PUT ITEM CAT_GENERALES
+PUT {{api}}/200-4
+Content-Type: application/json
+
+{
+    "IdGenOk": "200-4",
+    "IdGenBK": "200-4",
+    "IdTipoGenOK": "200",
+    "DesGeneral": "POSDOCTORADO",
+    "IdAgrupa": "GA",
+    "detail_row_reg" : [
+            {
+                "FechaReg" : "2022-04-30T00:00:00.628+0000", 
+                "UsuarioReg" : "FIBARRAC"
+            }
+        ]
+}
+
+### DELETE CAT_GENERALES
+DELETE {{api}}/200-4

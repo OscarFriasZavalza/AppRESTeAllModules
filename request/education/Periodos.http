@@ -1,0 +1,5 @@
+@api = http://localhost:3050/api/v1/education/periodos
+###GET LIST
+GET {{api}}
+
+

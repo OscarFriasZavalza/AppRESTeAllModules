@@ -1,0 +1,57 @@
+[{
+    "IdTipoGenPK" : 200,
+    "IdTipoGenOK" : "200",
+    "IdTipoGenBK" : "200",
+    "DesTipoGen" : "Grados Academicos",
+    "detail_row": {
+          "FechaReg": "",
+          "UsuarioReg": "EDGAR",
+          "FechaUltMod": "",
+          "UsuarioMod": "EDGAR",
+          "Activo": "S",
+          "Borrado": "N"
+  }   
+},
+{
+  "IdTipoGenPK" : 201,
+  "IdTipoGenOK" : "201",
+  "IdTipoGenBK" : "201",
+  "DesTipoGen" : "Roles",
+  "detail_row": {
+        "FechaReg": "",
+        "UsuarioReg": "EDGAR",
+        "FechaUltMod": "",
+        "UsuarioMod": "EDGAR",
+        "Activo": "S",
+        "Borrado": "N"
+}   
+},
+{
+  "IdTipoGenPK" : 202,
+  "IdTipoGenOK" : "202",
+  "IdTipoGenBK" : "202",
+  "DesTipoGen" : "Direcciones Web",
+  "detail_row": {
+        "FechaReg": "",
+        "UsuarioReg": "EDGAR",
+        "FechaUltMod": "",
+        "UsuarioMod": "EDGAR",
+        "Activo": "S",
+        "Borrado": "N"
+}   
+},
+{
+  "IdTipoGenPK" : 203,
+  "IdTipoGenOK" : "203",
+  "IdTipoGenBK" : "203",
+  "DesTipoGen" : "Direcciones",
+  "detail_row": {
+        "FechaReg": "",
+        "UsuarioReg": "EDGAR",
+        "FechaUltMod": "",
+        "UsuarioMod": "EDGAR",
+        "Activo": "S",
+        "Borrado": "N"
+}   
+}]
+

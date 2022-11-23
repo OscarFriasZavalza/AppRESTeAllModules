@@ -1,0 +1,51 @@
+[{
+  "IdEdificioPK": 1,
+  "IdEdificioOK": "1",
+  "IdEdificioBK": "LASC-A",
+  "DesEdificio": "Laboratorio de computo",
+  "ClaveEdificio": "LASC",
+  "AliasEdificio": "LabSC",
+  "Prioridad": 0,
+  "CoordenadaCentral": 0,
+  "CoordenadaArea": 0,
+  "edificios_espacios": [
+    {
+      "IdEspacioOK": "1",
+      "IdEspacioBK": "1",
+      "DesEspacio": "Area de laboratorio y baston",
+      "ClaveEspacio": "LASC_BASTON",
+      "Prioridad": 0,
+      "AliasEspacio": "AREA1",
+      "TiempoReservacion": 0,
+      "Capacidad": 2,
+      "IdTipoGenEstatus": "200",
+      "IdGenEstatus": "200-1",
+      "TipoEstatus": "ACTIVO",
+      "RefeUbicacion": "Entrando a la izquierda",
+      "CoordenadaCentral": "0",
+      "CoordenadaArea": "0-00",
+      "PermiteCruce": "S",
+      "Observaciones": "Esta grande",
+      "detail_row": {
+        "FechaReg": {
+          "$date": "2016-04-08T15:06:21.595Z"
+        },
+        "UsuarioReg": "Gonzalo",
+        "FechaUltMod": {
+          "$date": "2016-04-08T15:06:21.595Z"
+        },
+        "UsuarioMod": "Gonzalo",
+        "Activo": "S",
+        "Borrado": "N"
+      }
+    }
+  ],
+  "detail_row": {
+    "FechaReg": "2016-04-08T15:06:21.595Z",
+    "UsuarioReg": "2016-04-08T15:06:21.595Z",
+    "FechaUltMod": "2016-04-08T15:06:21.595Z",
+    "UsuarioMod": "2016-04-08T15:06:21.595Z",
+    "Activo": "Si",
+    "Borrado": "No"
+  }
+}]

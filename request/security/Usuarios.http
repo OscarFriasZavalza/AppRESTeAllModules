@@ -1,0 +1,177 @@
+@api = http://localhost:3050/api/v1/security/usuarios
+#@api = http://187.229.22.99:8010/api/v1/Usuarios
+
+### GET
+GET {{api}}
+
+### GET ITEM
+GET {{api}}/1
+
+### GET ITEM
+GET {{api}}/4?keyType=OK
+
+### GET ITEM
+GET {{api}}/18401180?keyType=BK
+
+### POST ITEM USUARIO
+POST {{api}} 
+Content-Type: application/json 
+
+{
+  "IdUsuarioOK": "100",
+  "IdUsuarioBK": "18401080",
+  "IdPersonaOK": "100",
+  "Usuario": "ALCON",
+  "Expira": "S",
+  "Conectado": "S",
+  "NumIntentos": 1,
+  "Token": "",
+  "cat_usuarios_expira_claves": [
+    {
+      "Clave": "AC2000",
+      "FechaExpiraIni": "2022-04-30T00:00:00.628+0000",
+      "FechaExpiraFin": "2025-04-30T00:00:00.628+0000",
+      "Actual": "S",
+      "ClaveAutoSys": "N",
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": "2022-04-30T00:00:00.628+0000",
+            "UsuarioReg": "CRAMOSM"
+          }
+        ]
+      }
+    }
+  ],
+  "cat_usuarios_estatus": [
+    {
+      "IdTipoEstatusOK": "200",
+      "IdEstatusOK": "2001",
+      "Estatus": "ACTIVO",
+      "Actual": "S",
+      "Observacion": "NA",
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": "2022-04-30T00:00:00.628+0000",
+            "UsuarioReg": "CRAMOSM"
+          }
+        ]
+      }
+    }
+  ],
+  "cat_usuarios_roles": [
+    {
+      "IdInstitutoOK": "1",
+      "IdInstitutoBK": "18DIT0002Z",
+      "IdRolOK": "1",
+      "IdRolBK": "1",
+      "Principal": "S",
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": "2022-04-30T00:00:00.628+0000",
+            "UsuarioReg": "CRAMOSM"
+          }
+        ]
+      }
+    }
+  ],
+  "detail_row": {
+    "Activo": "S",
+    "Borrado": "N",
+    "detail_row_reg": [
+      {
+        "FechaReg": "2022-04-30T00:00:00.628+0000",
+        "UsuarioReg": "CRAMOSM"
+      }
+    ]
+  }
+}
+
+### PUT ITEM USUARIO 
+PUT {{api}}/100
+Content-Type: application/json
+
+{
+  "IdUsuarioOK": "100",
+  "IdUsuarioBK": "18401000",
+  "IdPersonaOK": "100",
+  "Usuario": "ALCONPUT",
+  "Expira": "S",
+  "Conectado": "S",
+  "NumIntentos": 1,
+  "Token": "",
+  "cat_usuarios_expira_claves": [
+    {
+      "Clave": "AC2000",
+      "FechaExpiraIni": "2022-04-30T00:00:00.628+0000",
+      "FechaExpiraFin": "2025-04-30T00:00:00.628+0000",
+      "Actual": "S",
+      "ClaveAutoSys": "N",
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": "2022-04-30T00:00:00.628+0000",
+            "UsuarioReg": "CRAMOSM"
+          }
+        ]
+      }
+    }
+  ],
+  "cat_usuarios_estatus": [
+    {
+      "IdEstatusOK": "200-2001",
+      "Estatus": "ACTIVO",
+      "Actual": "S",
+      "Observacion": "NA",
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": "2022-04-30T00:00:00.628+0000",
+            "UsuarioReg": "CRAMOSM"
+          }
+        ]
+      }
+    }
+  ],
+  "cat_usuarios_roles": [
+    {
+      "IdInstitutoOK": "1",
+      "IdNegocioOK": "1101",
+      "IdRolOK": "1",
+      "Principal": "S",
+      "Actual": "S",
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": "2022-04-30T00:00:00.628+0000",
+            "UsuarioReg": "CRAMOSM"
+          }
+        ]
+      }
+    }
+  ],
+  "detail_row": {
+    "Activo": "S",
+    "Borrado": "N",
+    "detail_row_reg": [
+      {
+        "FechaReg": "2022-04-30T00:00:00.628+0000",
+        "UsuarioReg": "CRAMOSM"
+      }
+    ]
+  }
+}
